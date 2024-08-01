@@ -20,10 +20,11 @@ const DesignLink = ({
       className={`${styles.designLink} ${variant === 'secondary' ? styles.justifyEnd : ''}`}
     >
       <Link
-        className={`${variant === 'secondary' ? styles.clr_primary200 : ''}`}
+        className={`${variant === 'secondary' ? styles.clr_primary200 : ''} ${styles.d_link}`}
         href={linkHref}
+        data-replace={linkText}
       >
-        {linkText}
+        <span className={styles.d_replace}>{linkText}</span>
       </Link>
       <span
         className={`${styles.doubleDash} ${variant === 'secondary' ? styles.bg_primary200 : ''}`}
