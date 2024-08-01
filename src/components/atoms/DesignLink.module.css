@@ -64,6 +64,14 @@
   transform: scaleX(0);
   transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1);
 }
+.designLink .clr_primary200.d_link::before {
+  background-color: var(--primary200);
+}
+
+.designLink .d_link::before {
+  background-color: var(--primary500)
+}
+
 .d_link::after {
   content: attr(data-replace);
   height: 100%;
