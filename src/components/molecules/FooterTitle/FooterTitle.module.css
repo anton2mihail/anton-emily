@@ -1,0 +1,49 @@
+.footerTitle {
+  --primary200: #ECE5DA;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  min-width: 85vw;
+}
+
+.footerTitleText {
+  font-size: 90px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  color: var(--primary200);
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.footerTitleDate {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--primary200);
+  text-align: right;
+  margin: 0;
+  padding: 0;
+}
+
+
+.footerSubtext {
+  color: var(--primary200);
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 1.3px;
+  text-transform: uppercase;
+}
+
+.footerLinks > * {
+  margin-top: 2rem;
+}
+
+.footerLinks > *:last-child {
+  margin-bottom: 15rem;
+}

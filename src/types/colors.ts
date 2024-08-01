@@ -1,0 +1,15 @@
+const colors = {
+  primary100: '#FFFCF9',
+  primary200: '#ECE5DA',
+  primary300: '#DBD1BE',
+  primary400: '#CAB999',
+  primary500: '#6E5139',
+  accent100: '#DAD5A9',
+  accent200: '#C3C5A2',
+  accent300: '#9DA36B',
+  accent400: '#627040',
+  accent500: '#3C4B22',
+  footerbackground: '#848A7D',
+};
+
+export { colors };

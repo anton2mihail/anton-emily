@@ -1,0 +1,58 @@
+.dateSlider {
+  --primary100: #FFFCF9;
+  --primary200: #ECE5DA;
+  --primary300: #DBD1BE;
+  --primary400: #CAB999;
+  --primary500: #6E5139;
+  --accent100: #DAD5A9;
+  --accent200: #C3C5A2;
+  --accent300: #9DA36B;
+  --accent400: #627040;
+  --accent500: #3C4B22;
+  --footerBackground: #848A7D;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.leftBox , .rightBox {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px; /* 120% */
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  color: var(--primary500);
+}
+
+.middleLineBox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  width: 25vw;
+
+}
+
+.middleLine {
+  width: 100%;
+  height: 4px;
+  background-color: var(--primary500);
+  align-self: flex-start;
+}
+
+
+.middleLineDate {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--primary500);
+  margin: 0;
+  padding: 0;
+  padding-top: 1rem;
+}

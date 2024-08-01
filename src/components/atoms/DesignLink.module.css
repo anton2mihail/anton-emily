@@ -1,0 +1,43 @@
+.designLink {
+  --primary100: #FFFCF9;
+  --primary200: #ECE5DA;
+  --primary300: #DBD1BE;
+  --primary400: #CAB999;
+  --primary500: #6E5139;
+  --accent100: #DAD5A9;
+  --accent200: #C3C5A2;
+  --accent300: #9DA36B;
+  --accent400: #627040;
+  --accent500: #3C4B22;
+  --footerBackground: #848A7D;
+  display: flex;
+  align-self: center;
+  justify-self: center;
+}
+
+.doubleDash {
+  display: block;
+  height: 1px;
+  width: 30px;
+  margin-left: 1rem;
+  background-color: var(--primary500);
+  align-self: center;
+}
+
+.designLink a {
+  text-decoration: none;
+  color: var(--primary500);
+}
+
+.bg_primary200 {
+  background-color: var(--primary200);
+}
+
+.designLink .clr_primary200 {
+  text-decoration: none;
+  color: var(--primary200);
+}
+
+.justifyEnd {
+  justify-content: end;
+}
